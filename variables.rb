@@ -12,4 +12,4 @@ puts b / c.to_f
 
 name = "Mark"
 
-puts name + b.to_s
+puts name + " " + b.to_s
