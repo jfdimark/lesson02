@@ -1,7 +1,8 @@
 # declare a hash representing the four suites of a deck of cards
 # with an abbreviation for the keys and a full name for the values
 
-cards = { hr: "Hearts", ac: "Aces", jk: "Jacks", sp: "Spades"}
+cards = { hr: "Hearts", di: "Diamonds", cl: "Clubs", sp: "Spades"}
+royals = { }
 
 cards.each do |key, suit|
 	(1..13).each do |value|
